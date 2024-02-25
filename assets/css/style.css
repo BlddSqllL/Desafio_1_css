@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    margin: 0; 
+
+       
+      }
+      
+
+#pagina {
+
+    display: flex;
+}
+
+
+.left-section {
+    
+    height: 100%;
+    background-color: rgb(225, 225, 225);
+    padding: 0px 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+
+}
+
+.usuario {
+
+    display: flex;
+    align-items: end;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-bottom: 1px solid
+}
+
+.usuario-photo {
+
+    width: 80px;
+    height: 80px;
+}
+
+#bottom {
+
+    padding-top: 25px;
+    padding-bottom: 20px;
+    width: 120px;
+
+}
+
+
+.contact1 {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid
+}
+
+.contact {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid
+}
+
+.contact-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.contact-details {
+    flex-grow: 1;
+}
+.contact-name {
+
+    font-size: 15px;
+    font-weight: bold;
+}
+.contact-job {
+    font-size: 15px;
+    color: grey;
+}
+
+.btn{ 
+
+background-color: grey;
+color: whitesmoke;
+
+}
+
+.btn:hover{
+
+    background-color: white;
+    color: black;
+}
+
+
+.right-section {
+    
+    background-color: white;
+    padding: 180px 0px 180px 0px;
+    text-align: center;
+   
+    
+}
+.logo {
+    
+    opacity: 0.5;
+    width: 60%;
+    margin: 0 auto;
+}
+.logo-text {
+    font-size: 16px;
+    margin-top: 10px;
+}
